@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Books from './components/Books.vue';
-import Ping from './components/Ping.vue';
+import Foo from './components/Foo.vue';
 import Order from './components/Order.vue';
 import OrderComplete from './components/OrderComplete.vue';
 
@@ -27,9 +27,9 @@ export default new Router({
       component: OrderComplete,
     },
     {
-      path: '/ping',
-      name: 'Ping',
-      component: Ping,
+      path: '/foo',
+      name: 'Foo',
+      component: Foo,
     },
   ],
 });

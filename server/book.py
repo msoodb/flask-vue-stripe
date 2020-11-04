@@ -1,37 +1,8 @@
-#import os
 import uuid
-
-#import stripe
-#from flask import Flask, jsonify, request
-#from flask_cors import CORS
-
 from flask import jsonify, request
 import json 
 
 BOOKS = []
-# BOOKS = [
-#     {
-#         'id': uuid.uuid4().hex,
-#         'title': 'On the Road',
-#         'author': 'Jack Kerouac',
-#         'read': True,
-#         'price': '19.99'
-#     },
-#     {
-#         'id': uuid.uuid4().hex,
-#         'title': 'Harry Potter and the Philosopher\'s Stone',
-#         'author': 'J. K. Rowling',
-#         'read': False,
-#         'price': '9.99'
-#     },
-#     {
-#         'id': uuid.uuid4().hex,
-#         'title': 'Green Eggs and Ham',
-#         'author': 'Dr. Seuss',
-#         'read': True,
-#         'price': '3.99'
-#     }
-# ]
 
 def read_books():
     global BOOKS
