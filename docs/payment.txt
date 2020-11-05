@@ -1,0 +1,24 @@
+
+
+# What is a Digital Wallet?
+https://www.pagbrasil.com/news/digital-wallet-gateway-payment-processor
+
+# Top 10 Digital Wallets of 2020
+- Google Pay
+- PayPal
+- Facebook Pay
+- Amazon Pay
+- Venmo
+- Zelle
+- WeChat Pay
+- AliPay
+- Apple Pay
+- Samsung Pay
+
+# What is a Payment Gateway?
+A payment gateway is the online equivalent of PoS machines.
+
+
+# PayPal vs Credit Card (Visa & Master)
+https://mingclee.medium.com/paypal-vs-credit-card-visa-master-961c6f13c604
+
