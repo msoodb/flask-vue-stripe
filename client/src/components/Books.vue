@@ -43,6 +43,11 @@
                               class="btn btn-primary btn-sm">
                       Purchase
                   </router-link>
+                  <button type="button"
+                          class="btn btn-danger btn-sm"
+                          @click="onCheckout()">
+                      Checkout
+                  </button>
                 </div>
               </td>
             </tr>
@@ -172,6 +177,7 @@ export default {
         read: [],
         price: '',
       },
+      stripe: {},
     };
   },
   components: {
@@ -285,6 +291,20 @@ export default {
     },
     onDeleteBook(book) {
       this.removeBook(book.id);
+    },
+    checkout() {
+      const path = 'http://localhost:5000/checkout';
+      axios.post(path)
+        .then((res) => {
+          // const sessionID = res.data.id;
+          console.log(res.data);
+        })
+        .catch((error) => {
+          console.error(error);
+        });
+    },
+    onCheckout() {
+      this.checkout();
     },
   },
   created() {
