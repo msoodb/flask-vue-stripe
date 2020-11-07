@@ -22,3 +22,14 @@ A payment gateway is the online equivalent of PoS machines.
 # PayPal vs Credit Card (Visa & Master)
 https://mingclee.medium.com/paypal-vs-credit-card-visa-master-961c6f13c604
 
+
+# Pyament guide
+https://stripe.com/files/payments/guide/Payment-methods-guide.pdf
+
+
+# Nodal Account
+https://blog.cashfree.com/nodal-account/
+
+
+# Terms
+https://medium.com/mojoverse-the-business-weekly/17-payment-gateway-terms-entrepreneurs-must-know-9f8e42b1a540

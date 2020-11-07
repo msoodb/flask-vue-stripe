@@ -50,6 +50,9 @@ def create_charge_r():
 def get_charge_r(charge_id):    
     return stripe_w.get_charge(charge_id)
 
+@app.route('/checkout', methods=['POST'])
+def create_checkout_session_r():    
+    return stripe_w.create_checkout_session()
 
 if __name__ == '__main__':
     app.run()
